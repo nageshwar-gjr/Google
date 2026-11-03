@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <button class="apps-button" aria-label="Google apps">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="signin-button">Sign in</button>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="google-logo" aria-label="Google">
+        <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+      </div>
+
+      <form class="search-box" id="google-search" action="https://www.google.com/search" method="get" role="search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M10 2a8 8 0 015.9 13.7l5.5 5.5 1.4-1.4-5.5-5.5A8 8 0 1110 2zm0 2a6 6 0 104.2 10.2A6 6 0 0010 4z"/>
+        </svg>
+        <input type="search" name="q" aria-label="Search" />
+        <button type="button" class="icon-button" aria-label="Search by voice">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 15a3 3 0 003-3V7a3 3 0 10-6 0v5a3 3 0 003 3zm5-3a1 1 0 112 0v1a7 7 0 01-6 6.9V21h3v2H9v-2h3v-2.1A7 7 0 013 13v-1a1 1 0 112 0v1a5 5 0 0010 0v-1z"/>
+          </svg>
+        </button>
+        <button type="button" class="icon-button" aria-label="Search by image">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 19V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2zM5 5h14v9.5l-3-3-4.5 4.5-3-3L5 17.5V5zm2.5 3.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
+          </svg>
+        </button>
+      </form>
+
+      <div class="search-actions">
+        <button type="submit" form="google-search">Google Search</button>
+        <button type="submit" form="google-search" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+      </div>
+
+      <p class="language-offer">
+        Google offered in:
+        <a href="#">हिन्दी</a>
+        <a href="#">বাংলা</a>
+        <a href="#">తెలుగు</a>
+        <a href="#">मराठी</a>
+        <a href="#">தமிழ்</a>
+        <a href="#">ગુજરાતી</a>
+        <a href="#">ಕನ್ನಡ</a>
+      </p>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">India</div>
+      <div class="footer-bottom">
+        <div class="footer-links left">
+          <a href="#">About</a>
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </div>
+        <div class="footer-links right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
